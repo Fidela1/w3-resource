@@ -10,3 +10,9 @@ const student = {};
 student["name"] = 'ARC';
 student.lastName = 'tutoliar';
 console.log(student);
+
+// join all elements of the following array into a string
+const myColour = ["red","blue","green"];
+console.log(myColour.toString());
+console.log(myColour.join());
+console.log(myColour.join('+'));
