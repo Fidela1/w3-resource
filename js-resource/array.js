@@ -38,3 +38,29 @@ const getFirs = () => {
     console.log('the first value is',firstValue);
     }
     getFirs();
+
+    // and operator
+
+    const testLogicalAnd = (val) => {
+    
+        if (val <= 50 && val >=25) {
+          
+            console.log("yes");
+          }
+        
+        console.log("No");
+      }
+      
+      testLogicalAnd(10);
+
+    //   Comparisons with the Logical Or Operator
+
+      const testLogicalOr = (val) => {
+      
+        if (val >20 || val<10 ) {
+            console.log("Outside");
+        }
+       console.log("Inside");
+      }
+      
+      testLogicalOr(15);
