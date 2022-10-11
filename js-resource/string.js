@@ -16,3 +16,19 @@ const myColour = ["red","blue","green"];
 console.log(myColour.toString());
 console.log(myColour.join());
 console.log(myColour.join('+'));
+
+// break and continue
+
+function find(){
+for (let i = 0; i<10; i++){
+    if(i == 5){
+        break;
+    }
+    if(i == 4){
+        continue;
+    }
+    console.log(i);
+}
+
+}
+find();
