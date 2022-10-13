@@ -70,3 +70,17 @@ const getFirs = () => {
       }
       
       console.log(duplicate([1, 2, 3, 4, 5]));
+
+
+    // sort array element 
+
+
+      const checkEven = (n) =>{
+        if(n%2 === 0){
+           console.log('the number is even');
+        }
+      else{
+          console.log('the number is not even');
+      }
+      }
+checkEven(90);
