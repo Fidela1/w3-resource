@@ -53,3 +53,9 @@ console.log(f);
 let c = 'Banana,Orange,Apple';
 let t = c.substring(7,13);
 console.log(t);
+
+
+// substr method
+let e = 'Banana,Orange,Apple';
+let d = e.substring(7);
+console.log(d);
