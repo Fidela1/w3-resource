@@ -59,3 +59,9 @@ console.log(t);
 let e = 'Banana,Orange,Apple';
 let d = e.substr(7);
 console.log(d);
+
+// replace method
+
+let text = 'Please visit Microsoft';
+let newText = text.replace('Microsoft','Website');
+console.log(newText);
