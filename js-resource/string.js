@@ -46,5 +46,5 @@ let fru = frui.slice(-12,-6);
 console.log(fru);
 
 let fr = 'Banana,Orange,Apple';
-let f = fr.slice(7);
+let f = fr.slice(14);
 console.log(f);
