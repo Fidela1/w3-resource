@@ -40,4 +40,6 @@ let fruit = fruits.slice(7,13);
 console.log(fruit)
 
 
-
+let frui = 'Banana,Orange,Apple';
+let fru = frui.slice(-12,-6);
+console.log(fru);
