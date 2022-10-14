@@ -65,3 +65,10 @@ console.log(d);
 let text = 'Please visit Microsoft';
 let newText = text.replace('Microsoft','Website');
 console.log(newText);
+
+// concat method
+
+let text1 = 'Computer';
+let text2 = 'Science';
+let text3 = text1.concat('',text2);
+console.log(text3);
