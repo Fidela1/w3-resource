@@ -84,3 +84,10 @@ const getFirs = () => {
       }
       }
 checkEven(90);
+
+
+
+function myFunction(a,b){
+  return a*b;
+}
+console.log('the product of two numbers',myFunction(4,3));
