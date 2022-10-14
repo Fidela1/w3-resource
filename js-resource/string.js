@@ -135,4 +135,10 @@ console.log(txt3); // false
 
 let nm = "Hello World";
 let nm1 = nm.startsWith("Hello");
-console.log(nm1);  // tru becouse it started by hello
+console.log(nm1);  // true becouse it started by hello
+
+// endsWith() method
+
+let element = "Speak to me";
+let element1 = element.endsWith("me",11);
+console.log(element1);
