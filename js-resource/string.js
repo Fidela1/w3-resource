@@ -37,7 +37,25 @@ find();
 
 let fruits = 'Banana,Orange,Apple';
 let fruit = fruits.slice(7,13);
-console.log(fruit)
+console.log(fruit);
 
 
+// 
+let frui = 'Banana,Orange,Apple';
+let fru = frui.slice(-12,-6);
+console.log(fru);
 
+let fr = 'Banana,Orange,Apple';
+let f = fr.slice(14);
+console.log(f);
+
+// substring method
+let c = 'Banana,Orange,Apple';
+let t = c.substring(7,13);
+console.log(t);
+
+
+// substr method
+let e = 'Banana,Orange,Apple';
+let d = e.substring(7);
+console.log(d);
