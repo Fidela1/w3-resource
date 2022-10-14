@@ -85,9 +85,16 @@ const getFirs = () => {
       }
 checkEven(90);
 
-
+// product of two numbers
 
 function myFunction(a,b){
   return a*b;
 }
 console.log('the product of two numbers',myFunction(4,3));
+
+// to convert fahrenheit to celsius
+
+const toCelsius = (fahrenheit) =>{
+  return (5/9) * (fahrenheit-32);
+}
+console.log(toCelsius(77));

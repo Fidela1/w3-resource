@@ -32,3 +32,12 @@ for (let i = 0; i<10; i++){
 
 }
 find();
+
+// slice method
+
+let fruits = 'Banana,Orange,Apple';
+let fruit = fruits.slice(7,13);
+console.log(fruit)
+
+
+
