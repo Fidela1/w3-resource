@@ -142,3 +142,19 @@ console.log(nm1);  // true becouse it started by hello
 let element = "Speak to me";
 let element1 = element.endsWith("me",11);
 console.log(element1);
+
+// to change number to string
+let x = 123;
+let y = x.toString();
+console.log(y);
+
+// to round number 
+
+let z = 9.256;
+let q = z.toExponential();
+console.log(q);
+
+let w = 9.256;
+console.log(w.toFixed());
+console.log(w.toFixed(4));
+console.log(w.toFixed(6));
