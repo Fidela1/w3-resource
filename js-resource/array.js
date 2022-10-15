@@ -98,3 +98,8 @@ const toCelsius = (fahrenheit) =>{
   return (5/9) * (fahrenheit-32);
 }
 console.log(toCelsius(77));
+
+/// to sort array element
+const fruit1 = ["mango","banana","lemon"];
+const fruit2 = fruit1.sort();
+console.log(fruit2);
