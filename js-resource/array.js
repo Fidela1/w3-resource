@@ -104,8 +104,13 @@ const fruit1 = ["mango","banana","lemon"];
 const fruit2 = fruit1.sort();
 console.log(fruit2);
 
-// sort array element
+// sort array element in ascending order
 
 const point = [40,50,10,20,70];
 point.sort(function(a,b){return a-b});
 console.log(point);
+
+// to sort in descending order
+const poin = [40,50,10,20,70];
+poin.sort(function(a,b){return b - a});
+console.log(poin);
