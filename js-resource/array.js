@@ -103,3 +103,9 @@ console.log(toCelsius(77));
 const fruit1 = ["mango","banana","lemon"];
 const fruit2 = fruit1.sort();
 console.log(fruit2);
+
+// sort array element
+
+const point = [40,50,10,20,70];
+point.sort(function(a,b){return a-b});
+console.log(point);
