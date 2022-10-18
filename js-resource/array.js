@@ -114,3 +114,15 @@ console.log(point);
 const poin = [40,50,10,20,70];
 poin.sort(function(a,b){return b - a});
 console.log(poin);
+
+// to find largest number in array
+
+const nbr = [34,56,32,1,90,70];
+  let largest =0;
+  for(let i = 0;i < nbr.length;i++){
+    if(nbr[i]>largest){
+      largest = nbr[i];
+    }
+  }
+
+console.log(`Largest number is ${largest}`);
