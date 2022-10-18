@@ -125,4 +125,14 @@ const nbr = [34,56,32,1,90,70];
     }
   }
 
-console.log(`Largest number is ${largest}`);
+console.log('Largest number ',largest);
+
+const arrayNumber = [20,30,5,100,70];
+arrayNumber.sort(function(a,b){ return b - a});
+let larg = arrayNumber[0];
+console.log('largest number ',larg);
+
+const arrayNumbers = [20,30,5,100,70];
+arrayNumbers.sort(function(a,b){ return a - b});
+let small = arrayNumbers[0];
+console.log('smallest number ',small);
