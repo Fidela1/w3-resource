@@ -136,3 +136,20 @@ const arrayNumbers = [20,30,5,100,70];
 arrayNumbers.sort(function(a,b){ return a - b});
 let small = arrayNumbers[0];
 console.log('smallest number ',small);
+
+
+// find maximum
+const max = [1,2,3,4,5];
+
+function findMaximum(arr){
+  return Math.max.apply(null,arr);
+}
+let maximum = findMaximum(max);
+console.log('largest number is',maximum);
+
+const min = [20,10,30];
+function findMinimum(arr){
+  return Math.min.apply(null,arr);
+}
+let minimum = findMinimum(min);
+console.log('small number is',minimum);
