@@ -132,13 +132,14 @@ arrayNumber.sort(function(a,b){ return b - a});
 let larg = arrayNumber[0];
 console.log('largest number ',larg);
 
+// find smallest number
 const arrayNumbers = [20,30,5,100,70];
 arrayNumbers.sort(function(a,b){ return a - b});
 let small = arrayNumbers[0];
 console.log('smallest number ',small);
 
 
-// find maximum
+// find largest number
 const max = [1,2,3,4,5];
 
 function findMaximum(arr){
@@ -147,9 +148,18 @@ function findMaximum(arr){
 let maximum = findMaximum(max);
 console.log('largest number is',maximum);
 
+// find small number
 const min = [20,10,30];
 function findMinimum(arr){
   return Math.min.apply(null,arr);
 }
 let minimum = findMinimum(min);
 console.log('small number is',minimum);
+
+
+const number1 = [5,6,78,12];
+const number2 = number1.map(myFunction);
+
+function myFunction(value,index,arr){
+  console.log(value * 2);
+}
