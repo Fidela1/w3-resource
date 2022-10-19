@@ -163,3 +163,23 @@ const number2 = number1.map(myFunction);
 function myFunction(value,index,arr){
   console.log(value * 2);
 }
+
+// to find square of numbers
+
+let numbers = [2,4,3,6,12];
+
+let double = numbers.filter(findDouble);
+
+// to find power of given number
+
+function findDouble(twice){
+  return twice *twice;
+}console.log(double);
+
+const findSquare = (twice) => {
+console.log(twice * twice);
+}
+findSquare(3);
+
+let power = Math.pow(5,2);
+console.log(power);
