@@ -193,3 +193,10 @@ const stringReverse = (nm) => {
     return nm.split('').reverse().join('');
 }
 console.log(stringReverse('hello'));
+
+// alphabetical order
+
+const alphabeticalOrder = (str) => {
+    return str.split('').sort().join('');
+}
+console.log(alphabeticalOrder('bfga'));
