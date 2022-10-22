@@ -158,3 +158,16 @@ let w = 9.256;
 console.log(w.toFixed());
 console.log(w.toFixed(4));
 console.log(w.toFixed(6));
+
+// to check whether a string is blank or not.
+
+const isBlank = (n) => {
+if(n.length === 0){
+    return true;
+}
+else{
+    return false;
+}
+}
+console.log(isBlank(''));
+console.log(isBlank('bbb'))
