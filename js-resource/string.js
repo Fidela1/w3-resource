@@ -180,9 +180,16 @@ return a.trim().split(" ");
 };
 console.log(stringToArray("john smith"));
 
-// 
+// change first letter of string to capital
 function toCapital(b){
     
     return b.charAt(0).toUpperCase() + b.slice(1);
 }
 console.log(toCapital('fidela'));
+
+// return reversed string
+
+const stringReverse = (nm) => {
+    return nm.split('').reverse().join('');
+}
+console.log(stringReverse('hello'));
