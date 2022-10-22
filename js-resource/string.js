@@ -179,3 +179,10 @@ return a.trim().split(" ");
 
 };
 console.log(stringToArray("john smith"));
+
+// 
+function toCapital(b){
+    
+    return b.charAt(0).toUpperCase() + b.slice(1);
+}
+console.log(toCapital('fidela'));
