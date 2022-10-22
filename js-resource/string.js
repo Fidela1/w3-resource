@@ -171,3 +171,11 @@ else{
 }
 console.log(isBlank(''));
 console.log(isBlank('bbb'))
+
+//  split a string and convert it into an array of words
+
+const stringToArray = (a) => {
+return a.trim().split(" ");
+
+};
+console.log(stringToArray("john smith"));
