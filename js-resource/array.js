@@ -181,12 +181,3 @@ console.log("the power of number is",power);
 let root = Math.sqrt(144);
 console.log('the square root is',root);
 
-//
-
-const nbr1 = [2,10,40,90,25,4];
-function findNumber(value){
-  let arrayFilter = nbr1.filter();
-  if(value>18);
-  arrayFilter=nbr1;
-}
-console.log(findNumber())

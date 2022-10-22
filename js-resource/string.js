@@ -200,3 +200,9 @@ const alphabeticalOrder = (str) => {
     return str.split('').sort().join('');
 }
 console.log(alphabeticalOrder('bfga'));
+
+
+const stringTruncate = (word,x) => {
+    return word.split('').slice(0,x).join('');
+}
+console.log(stringTruncate("The Quick brown fox Running",20));
