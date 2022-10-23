@@ -206,3 +206,10 @@ const stringTruncate = (word,x) => {
     return word.split('').slice(0,x).join('');
 }
 console.log(stringTruncate("The Quick brown fox Running",20));
+
+// to count vowels of a given string
+
+const countVowels = (str) => {
+    return str.match(/[iuoae]/gi).length;
+}
+console.log(countVowels('fidela'));
