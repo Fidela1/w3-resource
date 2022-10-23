@@ -213,3 +213,10 @@ const countVowels = (str) => {
     return str.match(/[iuoae]/gi).length;
 }
 console.log(countVowels('fidela'));
+
+// to make first letter of a string in small leter
+
+const toSmallLetter = (str) => {
+    return str.charAt(0).toLowerCase() + str.slice(1);
+}
+console.log(toSmallLetter('Fidela'));
