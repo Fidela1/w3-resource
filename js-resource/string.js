@@ -227,7 +227,18 @@ const toSmallLetter = (str) => {
 }
 console.log(toSmallLetter('Fidela'));
 
-// to find greatest string
+// to make array of vowels in a given
+
+const arrayOfVowel = (str) => {
+let vwl = str.match(/[iuoae]/gi);
+if(vwl === null){
+    return 0;
+}
+else{
+    return vwl;
+}
+}
+console.log(arrayOfVowel('Tuyizere Fidela'));
 
 
 
