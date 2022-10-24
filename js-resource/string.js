@@ -240,5 +240,16 @@ else{
 }
 console.log(arrayOfVowel('Tuyizere Fidela'));
 
+// find greatest string in a given string
 
-
+const findGreatest = (str) => {
+    let word1 = str.split(' ');
+    let longest = ""; // creation of variable that will hold largest value
+    for(let i = 0; i < word1.length; i++){
+        if(word1[i].length > longest.length){   // check largest
+            longest = word1[i]; 
+        }
+    }
+    return longest;
+}
+console.log(findGreatest('Fidela Tuyizere'));
