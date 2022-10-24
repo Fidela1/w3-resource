@@ -210,7 +210,13 @@ console.log(stringTruncate("The Quick brown fox Running",20));
 // to count vowels of a given string
 
 const countVowels = (str) => {
-    return str.match(/[iuoae]/gi).length;
+   let count = str.match(/[iuoae]/gi);
+if(count === null){
+    return 0;
+}
+else{
+return count.length;
+}
 }
 console.log(countVowels('fidela'));
 
@@ -220,3 +226,8 @@ const toSmallLetter = (str) => {
     return str.charAt(0).toLowerCase() + str.slice(1);
 }
 console.log(toSmallLetter('Fidela'));
+
+// to find greatest string
+
+
+
