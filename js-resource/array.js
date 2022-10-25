@@ -181,3 +181,29 @@ console.log("the power of number is",power);
 let root = Math.sqrt(144);
 console.log('the square root is',root);
 
+
+// find product of array number
+const findProduct = (arr) => {
+  
+  let product = 1;
+  for (let i = 0; i < arr.length; i++){
+    product = product * arr[i];
+  }
+  console.log(product);
+}
+findProduct([3,4,5,6]);
+
+// find sum 
+
+const findSum = (arr) => {
+  let sum = 0;
+  let average;
+  for (let i = 0; i < arr.length; i++){
+    sum = sum + arr[i];
+    average = sum/arr.length;
+  }
+  console.log(sum);
+  console.log(average);
+
+}
+findSum([2,4]);

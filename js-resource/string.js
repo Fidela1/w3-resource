@@ -253,3 +253,34 @@ const findGreatest = (str) => {
     return longest;
 }
 console.log(findGreatest('Fidela Tuyizere'));
+
+// to make vowels into capital letter
+// var sen = prompt("enter value");
+const vowelToCapital = (str) => {
+var vc = str.split('');
+
+for(let i = 0; i < vc.length; i++){
+    if(vc[i] === "i"){
+        vc[i] = vc[i].toUpperCase();
+    }
+    else if(vc[i] === "u"){
+        vc[i] = vc[i].toUpperCase();
+    }
+    else if(vc[i] === "o"){
+        vc[i] = vc[i].toUpperCase();
+    }
+        else if(vc[i] === "a"){
+            vc[i] = vc[i].toUpperCase();
+        }
+            else if(vc[i] === "e"){
+                vc[i] = vc[i].toUpperCase();
+}
+else{
+    vc[i] = vc[i].toLowerCase();
+}
+}
+let b = vc.join('');
+return b;
+}
+console.log(vowelToCapital("fidela"));
+
