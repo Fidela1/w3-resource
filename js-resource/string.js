@@ -199,7 +199,7 @@ console.log(stringReverse('hello'));
 const alphabeticalOrder = (str) => {
     return str.split('').sort().join('');
 }
-console.log(alphabeticalOrder('bfga'));
+console.log(alphabeticalOrder('nmabdcef lgjh'));
 
 
 const stringTruncate = (word,x) => {
@@ -230,6 +230,7 @@ console.log(toSmallLetter('Fidela'));
 // to make array of vowels in a given
 
 const arrayOfVowel = (str) => {
+
 let vwl = str.match(/[iuoae]/gi);
 if(vwl === null){
     return 0;
@@ -282,5 +283,21 @@ else{
 let b = vc.join('');
 return b;
 }
-console.log(vowelToCapital("fidela"));
+console.log(vowelToCapital("fidela tuyizere"));
 
+// count duplication 
+
+const countDuplication = (str) => {
+    let double = [];
+    let duplicate = str.split('');
+    for(const item of duplicate){
+        if(double[item]){
+            double[item]++;
+        }
+        else{
+            double[item] = 1;
+        }
+    }
+    console.log(double);
+}
+countDuplication('acdvfaa');
