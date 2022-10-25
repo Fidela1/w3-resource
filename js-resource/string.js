@@ -301,3 +301,17 @@ const countDuplication = (str) => {
     console.log(double);
 }
 countDuplication('acdvfaa');
+
+const toCapita = (str) => {
+   
+    let s = str.split(' ');
+    let b = [];
+    console.log(s);
+    for(let i =0; i< s.length; i++){
+       let a = s[i].charAt(0).toUpperCase()+s[i].slice(1);
+       console.log(a);
+     b.push(a);
+    console.log(b.join(' '));
+}
+}
+toCapita("fidela tuyizere");
