@@ -207,3 +207,7 @@ const findSum = (arr) => {
 
 }
 findSum([2,4]);
+
+
+
+
