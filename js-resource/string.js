@@ -315,3 +315,28 @@ const toCapita = (str) => {
 }
 }
 toCapita("fidela tuyizere");
+
+
+// to make third letter to capital
+
+const thirdLetter = (str) => {
+    let n = str.split(' ');
+    let rv = [];
+    for(let i = 0; i<n.length; i++){
+    let f = n[i].split('').map(function(a,b) {
+        if(b == 2){
+            return (a+'').toUpperCase();
+        }
+        else{
+            return (a+'').toLowerCase();
+        }
+    
+    });
+    // console.log(f.join(''));
+    rv.push(f.join(''));
+
+}
+console.log(rv.join(' '));
+}
+thirdLetter('none');
+
