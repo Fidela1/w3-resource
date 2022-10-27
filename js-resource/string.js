@@ -340,3 +340,20 @@ console.log(rv.join(' '));
 }
 thirdLetter('none');
 
+// find greatest number
+const greatestNumber = (o) => {
+    let larg = 0;
+    for(let i = 0; i < o.length; i++){
+        if(o[i] > larg){
+            larg = o[i];
+            
+        }
+        
+    }
+    return larg;
+}
+
+console.log(greatestNumber([1,2,34,3]));
+
+
+
