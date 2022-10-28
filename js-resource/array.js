@@ -84,7 +84,7 @@ const getFirs = () => {
       }
       }
 checkEven(90);
-
+z
 // product of two numbers
 
 function myFunction(a,b){

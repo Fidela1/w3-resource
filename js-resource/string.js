@@ -286,10 +286,13 @@ return b;
 console.log(vowelToCapital("fidela tuyizere"));
 
 // count duplication 
+// "Write a function, that removes all the duplicate letters in a string.
+// Given a string N, return a string from N that contains no repeated letters"
 
-const countDuplication = (str) => {
+
+const countDuplication = (n) => {
     let double = [];
-    let duplicate = str.split('');
+    let duplicate = n.split('');
     for(const item of duplicate){
         if(double[item]){
             double[item]++;
@@ -355,5 +358,10 @@ const greatestNumber = (o) => {
 
 console.log(greatestNumber([1,2,34,3]));
 
+const capitalizeEachLetter = (str) => {
+let a = str.charAt(0).toUpperCase() + str.slice(1);
+console.log(a);
+}
+capitalizeEachLetter('john smith');
 
 
