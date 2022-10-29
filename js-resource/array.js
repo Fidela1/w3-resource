@@ -84,7 +84,7 @@ const getFirs = () => {
       }
       }
 checkEven(90);
-z
+
 // product of two numbers
 
 function myFunction(a,b){
@@ -208,6 +208,25 @@ const findSum = (arr) => {
 }
 findSum([2,4]);
 
+// find area of rectangle
 
+const findArea = (a,b) => {
+  let area;
+  area = (a*b)/2;
+  console.log(area);
+}
+findArea(2,4);
 
+// Get the last element of an array
 
+var last =  function(array, n) {
+  if (array == null) 
+    return void 0;
+  if (n == null) 
+     return array[array.length - 1];
+  return array.slice(Math.max(array.length - n, 0));  
+  };
+
+console.log(last([7, 9, 0, -2]));
+console.log(last([7, 9, 0, -2],3));
+console.log(last([7, 9, 0, -2],6));
