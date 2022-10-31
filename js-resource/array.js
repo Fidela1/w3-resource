@@ -254,3 +254,9 @@ function find_duplicate_in_array(arra1) {
 }
 
 console.log(find_duplicate_in_array([1, 2, -2, 4, 5, 4, 7, 8, 7, 7, 71, 3, 6]));
+
+// converting a number to a string with base different base
+
+var num = 213;
+console.log('213 in base 16 =',num.toString(16));
+console.log('213 in base 2 =',num.toString(2));
