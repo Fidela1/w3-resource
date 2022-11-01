@@ -364,4 +364,13 @@ console.log(a);
 }
 capitalizeEachLetter('john smith');
 
+// reverse a given number
 
+const reverseNumber = (n)=> {
+    n=n+"";
+    let mn = n.split('');
+    let re = mn.reverse();
+    let wq = re.join('');
+    return wq;
+}
+console.log(reverseNumber(32243));
