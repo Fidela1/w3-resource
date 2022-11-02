@@ -423,3 +423,15 @@ function findAdditon(item){
     sum +=item;
 }
 console.log(sum);
+
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+
+let std = ['anne','aline','alice'];
+
+ std.forEach(displayNames);
+
+ function displayNames(item){
+    console.log(item)
+ }
