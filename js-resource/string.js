@@ -400,3 +400,11 @@ const checkAdult = (age) =>{
 let r = ages.filter(checkAdult);
 console.log(r);
 
+// find even number
+const nn = [23,45,1,20,3,24];
+
+const checkEvn = (num) => {
+    return num % 2 == 0;
+}
+let s = nn.filter(checkEvn);
+console.log(s);
