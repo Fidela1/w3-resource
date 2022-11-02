@@ -435,3 +435,12 @@ let std = ['anne','aline','alice'];
  function displayNames(item){
     console.log(item)
  }
+
+ let stds = ['Anne','Aline','Alice'];
+
+ stds.forEach(displayName);
+
+ function displayName(item,index,arr){
+    arr[index] = 'Hello ' +item
+ }
+ console.log(stds)
