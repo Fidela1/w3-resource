@@ -408,3 +408,10 @@ const checkEvn = (num) => {
 }
 let s = nn.filter(checkEvn);
 console.log(s);
+
+const color = ['red','blue','green','bob'];
+let checkColor = color.filter(function(item){
+    return item.length > 3;
+});
+console.log(checkColor)
+
