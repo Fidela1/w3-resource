@@ -374,3 +374,29 @@ const reverseNumber = (n)=> {
     return wq;
 }
 console.log(reverseNumber(32243));
+
+// find longest word
+
+const findLongestWord = (n) => {
+    let a = n.split(' ');
+    let longer ="";
+    for(let i = a; i>0; i++){
+        if(a[i].length < longer.length){
+            longer = a[i];
+        }
+        
+    }
+    console.log(longer); 
+}
+findLongestWord('the quick brown fox');
+
+// filter method
+
+const ages = [23,45,1,20,3];
+const checkAdult = (age) =>{
+    return age > 18;
+}
+
+let r = ages.filter(checkAdult);
+console.log(r);
+
