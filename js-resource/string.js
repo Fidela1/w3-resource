@@ -415,3 +415,11 @@ let checkColor = color.filter(function(item){
 });
 console.log(checkColor)
 
+const numbers = [34,23,45];
+let sum = 0;
+numbers.forEach(findAdditon);
+
+function findAdditon(item){
+    sum +=item;
+}
+console.log(sum);
