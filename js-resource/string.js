@@ -443,4 +443,15 @@ let std = ['anne','aline','alice'];
  function displayName(item,index,arr){
     arr[index] = 'Hello ' +item
  }
- console.log(stds)
+ console.log(stds);
+
+
+ // Find the highest value in an array
+function maximums(input) {
+    if (toString.call(input) !== "[object Array]")  
+      return false;
+ return Math.max.apply(null, input);
+   }
+
+console.log(maximums([12,34,56,1]));
+console.log(maximums([-12,-34,0,-56,-1]));
