@@ -455,3 +455,15 @@ function maximums(input) {
 
 console.log(maximums([12,34,56,1]));
 console.log(maximums([-12,-34,0,-56,-1]));
+
+
+var xi,yi,chr;
+for(xi=1; xi <=6; xi++)
+{
+   for (yi=1; yi < xi; yi++)
+     {
+    chr=chr+("*");        
+      }
+ console.log(chr);
+ chr='';    
+    }
