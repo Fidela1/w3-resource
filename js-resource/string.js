@@ -478,4 +478,12 @@ for(xi=1; xi <=6; xi++)
         return shortest;
       }
       console.log(findShortestWord("The quick brown fox jumped over the lazy dog"));
-      
+
+    //   Validate whether a given value type is NaN or not
+
+      function is_nan(val)
+        {
+        return val !== val;
+       }
+
+console.log(is_nan(NaN));
