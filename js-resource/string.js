@@ -487,3 +487,19 @@ for(xi=1; xi <=6; xi++)
        }
 
 console.log(is_nan(NaN));
+
+// count number of consonants are in a string
+function consonants(str) {
+    var countConsonants = 0;
+  
+    for (var i = 0; i <= str.length; i++) {
+  
+      if (str[i] !== "a" || str[i] !== "e" || str[i] !== "i" ||
+        str[i] !== "o" || str[i] !== "u" || str[i] !== " ") {
+        countConsonants += 1;
+      }
+    }
+    console.log(countConsonants);
+  }
+  consonants("asdfghaaa");
+  
