@@ -570,6 +570,7 @@ console.log(repeat('Ha!',3));
 
 //  Find the most frequent item of an array
 
+// Sort the items of an array
 var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 var mf = 1;
 var m = 0;
