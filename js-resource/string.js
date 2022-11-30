@@ -590,3 +590,15 @@ for (var i=0; i<arr1.length; i++)
         m=0;
 }
 console.log(item+" ( " +mf +" times ) ") ;
+
+function primeNumbers(arr) {
+    let newarr = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (checkPrime(arr[i])) {
+            newarr[i] = arr[i];
+        }
+    }
+    let filtered = newarr.filter(elm => elm);
+    console.log(filtered);
+}
+primeNumbers([2, 3, 4, 5, 6, 7, 8, 9]);
