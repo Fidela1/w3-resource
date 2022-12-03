@@ -303,3 +303,41 @@ function sortNumbers(arr){
    }
   console.log(filterPrime(arr));
 }
+
+//sort array in descending order
+function sortNumbers(arr){
+
+  const isPrime = n => {
+      if (n===1){
+      return false;
+      }else if(n === 2){
+         return true;
+      }else{
+         for(let x = 2; x < n; x++){
+            if(n % x === 0){
+               return false;
+            }
+         }
+         return true;
+      }
+  }
+   
+  
+      for (let i = 0; i < arr.length; i++) {
+          for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] < arr[j]) {
+              w = arr[i];
+              arr[i] = arr[j];
+              arr[j] = w;
+            }
+        }
+        }
+       
+      
+  const filterPrime = arr => {
+      const filtered = arr.filter(el => !isPrime(el));
+      return filtered;
+   }
+  console.log(filterPrime(arr));
+  }
+  sortNumbers([1,2,3,4,5,6,10,11]);
