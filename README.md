@@ -1,1 +1,15 @@
 # w3-resource
+fail_on_violations: true
+
+rubocop:
+  config_file: .rubocop.yml
+  version: 0.75.0
+scss:
+  enabled: false
+
+stylelint:  config_file: .stylelintrc.json
+  enabled: true
+eslint:
+  enabled: true
+  version: 5.7.0  
+  config_file: .eslintrc
